@@ -16,6 +16,14 @@ a {
 .main {
     height: 100%;
 }
+.aboutMain{
+    margin-top:20px;
+    border-top:2px solid black;
+    font-family:'acme';
+    font-size:20px;
+    text-align:center;
+    
+}
 .social-image{
     width: 30px;
     margin: 15px;
@@ -61,7 +69,15 @@ a {
     width:400px;
     height:200px;
 }
+.gallery{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
 .thumbnail-image{
-    width:200px;
-    height:100px;
+    width:400px;
+    height:200px;
+    margin-top:30px;
+    margin-bottom:20px;
+    border-bottom:2px solid black;
 }
